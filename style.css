@@ -1,0 +1,27 @@
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+th {
+  background: #504f4f;
+  color:aliceblue;
+  border: 1px solid rgb(145, 145, 143);
+  border-collapse: collapse;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 4px;
+}
+.education {
+  font-size: 18px;
+  padding-bottom: -5px;
+  margin-bottom: 8px;
+}
+.projects {
+  font-size: 18px;
+  padding-bottom: -10px;
+  margin-bottom: -15px;
+}
+footer {
+  text-justify: auto;
+}
