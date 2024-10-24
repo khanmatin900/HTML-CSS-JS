@@ -25,3 +25,12 @@ th {
 footer {
   text-justify: auto;
 }
+img {
+  position: absolute;
+  right: 10%;
+  top: 4%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
