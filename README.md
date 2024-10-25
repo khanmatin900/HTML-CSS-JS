@@ -1,5 +1,5 @@
 # my-Resume 
 <br>
- This is my resume. 
+ This is my Resume. 
  <br>
  Author- Khan Mateen
