@@ -1,4 +1,4 @@
-# mY-Resume 
+# my-Resume 
 <br>
  This is my resume. 
  <br>
