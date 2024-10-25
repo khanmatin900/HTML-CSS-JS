@@ -33,4 +33,8 @@ img {
   height: 200px;
   border-radius: 50%;
   border: 2px solid black;
+  transition: all 2s ease-out;
+}
+img:hover {
+  border: 2px solid aliceblue;
 }
