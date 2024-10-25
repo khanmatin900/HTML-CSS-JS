@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(148 163 184);
+}
 table, td {
   border: 1px solid black;
   border-collapse: collapse;
