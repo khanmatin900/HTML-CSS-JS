@@ -5,6 +5,7 @@ table, td {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
+  padding: 5px;
 }
 th {
   background: #504f4f;
@@ -29,15 +30,28 @@ footer {
   text-justify: auto;
 }
 img {
+  --s: 150px; /* the image size */
+  --c: #76e3cd;
+  width: var(--s);
+  aspect-ratio: 1;
+  box-sizing: border-box;
+  padding-top: var(--s);
+  border: 5px solid black;
+  border-radius: 2px;
+  box-shadow: 0 0 0 999px var(--c); 
+  background: var(--c);
+  clip-path: inset(0);
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+  transition: 1s;
   position: absolute;
-  right: 10%;
-  top: 4%;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 2px solid black;
-  transition: all 2s ease-out;
+  right: 12%;
+  top: 5%;
+  
 }
 img:hover {
-  border: 2px solid aliceblue;
+  border: 5px solid aliceblue;
+  padding: 0;
+  clip-path: inset(-100% 0 0);
 }
